@@ -92,8 +92,8 @@ th {
 }
 
 img {
-  width:540px; /* you can use % */
-  height: auto;
+  width: 30px; /* you can use % */
+  height: 30px;
   max-width:100%;
 }
 
