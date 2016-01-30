@@ -25,11 +25,17 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:#7651ae;
 }
 
+h3.light {
+color:"#3f3f3f"
+}
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#5e5561;
+}
+h3.light {
+color:"#3f3f3f"
 }
 
 a {
@@ -92,9 +98,13 @@ th {
 }
 
 img {
-  width: 30px; /* you can use % */
-  height: 30px;
+  width: 20px; /* you can use % */
+  height: 20px;
   max-width:100%;
+}
+img.badge {
+  width: 40px;
+  max-width: 100%;
 }
 
 header {
