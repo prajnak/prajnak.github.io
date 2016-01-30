@@ -103,7 +103,9 @@ img {
   max-width:100%;
 }
 img.badge {
-  width: 40px;
+  border-radius: 25px;
+  width: 100px;
+  height: 100px;
   max-width: 100%;
 }
 
