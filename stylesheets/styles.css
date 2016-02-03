@@ -98,9 +98,10 @@ th {
 }
 
 img {
-  width: 20px; /* you can use % */
-  height: 20px;
+  width: 30px; /* you can use % */
+  height: 30px;
   max-width:100%;
+  padding: 4px;
 }
 img.badge {
   border-radius: 25px;
