@@ -2,7 +2,7 @@ body {
   /*padding-top: 70px;*/
   padding-bottom: 20px;
   font-family: 'Oxygen';
-  background-color: #f7d9b5;
+  background-color: rgba(186, 206, 199, 0.75);
 }
 a, .navbar-default .navbar-nav>li>a,
 .navbar-default .navbar-brand {
