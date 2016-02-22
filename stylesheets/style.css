@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('Cousine'), 
-  url(http://fonts.gstatic.com/s/cousine/v10/kbq7FPeQCXis0Edyi-YOa1KPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+  url(https://fonts.gstatic.com/s/cousine/v10/kbq7FPeQCXis0Edyi-YOa1KPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
   unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
 }
 /* cyrillic-ext */
@@ -13,7 +13,7 @@
   font-style: normal;
   font-weight: 700;
   src: local('Cousine Bold'), local('Cousine-Bold'), 
-  url(http://fonts.gstatic.com/s/cousine/v10/4OFqQVT4CccEiwAQMKv0egsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+  url(https://fonts.gstatic.com/s/cousine/v10/4OFqQVT4CccEiwAQMKv0egsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
   unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
 }
 /* cyrillic-ext */
@@ -22,7 +22,7 @@
   font-style: italic;
   font-weight: 400;
   src: local('Cousine Italic'), local('Cousine-Italic'), 
-  url(http://fonts.gstatic.com/s/cousine/v10/svY-0AsqnhB5pNHScPRpHoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  url(https://fonts.gstatic.com/s/cousine/v10/svY-0AsqnhB5pNHScPRpHoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
   unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
 }
 /* cyrillic-ext */
@@ -31,7 +31,7 @@
   font-style: italic;
   font-weight: 700;
   src: local('Cousine Bold Italic'), local('Cousine-BoldItalic'), 
-  url(http://fonts.gstatic.com/s/cousine/v10/y_AZ5Sz-FwL1lux2xLSTZQ7aC6SjiAOpAWOKfJDfVRY.woff2) format('woff2');
+  url(https://fonts.gstatic.com/s/cousine/v10/y_AZ5Sz-FwL1lux2xLSTZQ7aC6SjiAOpAWOKfJDfVRY.woff2) format('woff2');
   unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
 }
 body {
