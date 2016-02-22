@@ -2,7 +2,7 @@ body {
   /*padding-top: 70px;*/
   padding-bottom: 20px;
   font-family: 'Oxygen';
-  background-color: #f7d0b5;
+  background-color: #f7d9b5;
 }
 a, .navbar-default .navbar-nav>li>a,
 .navbar-default .navbar-brand {
@@ -64,8 +64,9 @@ padding: 5px;
   border-radius: 3px;
   background-color: #FFF;
   padding: 15px;
-  border: #D2D7D3 solid 1px;
-  border-bottom: #D2D7D3 solid 3px;
+  border: #fff solid 1px;
+  border-bottom: #fff solid 3px;
+  /*margin: 5px;*/
   /*z-index: -1;*/
 }
 .projects {
@@ -96,7 +97,8 @@ h1 {
     bottom: 0;
     z-index: 1000;
     display: block;
-    background-color: #FFF;
+    /*background-color: #FFF;*/
+    /*border-right: #E74C3C solid 3px;*/
   }
 }
 /* Responsive: Portrait tablets and up */
@@ -106,8 +108,8 @@ h1 {
     border-radius: 3px;
     background-color: #FFF;
     /*padding: 40px;*/
-    border: #D2D7D3 solid 1px;
-    border-bottom: #D2D7D3 solid 3px;
+    border: #fff solid 1px;
+    border-bottom: #fff solid 3px;
     /*z-index: -1;*/
   }
   .xtra-space {
