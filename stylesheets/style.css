@@ -8,6 +8,7 @@ a, .navbar-default .navbar-nav>li>a,
 .navbar-default .navbar-brand {
   text-decoration: none;
   color: #C0392B;
+  font-weight: bold;
 }
 a:hover,
 a:focus,
@@ -36,7 +37,7 @@ padding: 5px;
 }
 */
 .nav > li > a {
-  background-color: #FFF;
+  /*background-color: #FFF;*/
   border-bottom: #D2D7D3 solid 2px;
 }
 .nav > li > a:hover,
@@ -62,12 +63,15 @@ padding: 5px;
 }
 .white-bg {
   border-radius: 3px;
-  background-color: #FFF;
+  background-color: rgba(1,1,1, 0.1);
   padding: 15px;
-  border: #fff solid 1px;
-  border-bottom: #fff solid 3px;
-  /*margin: 5px;*/
+  /*border: #E74C3C solid 1px;*/
+  /*border-bottom: transparent 3px;*/
+  margin-bottom: 5px;
   /*z-index: -1;*/
+}
+.red-box {
+
 }
 .projects {
   padding: 40px;
@@ -81,6 +85,7 @@ padding: 5px;
 }
 h1 {
   color: #96281B;
+  /*border:solid 3px white;*/
 }
 /* Customize container */
 @media (min-width: 768px) {
@@ -98,18 +103,17 @@ h1 {
     z-index: 1000;
     display: block;
     /*background-color: #FFF;*/
-    /*border-right: #E74C3C solid 3px;*/
+    /*border: #E74C3C solid 1px;*/
   }
 }
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
   .white-bg {
-    border-radius: 3px;
-    background-color: #FFF;
-    /*padding: 40px;*/
-    border: #fff solid 1px;
-    border-bottom: #fff solid 3px;
+    /*border-radius: 3px;*/
+    background-color: rgba(1,1,1,0.1);
+    padding: 40px;
+    /*border: #E74C3C solid 1px;*/
     /*z-index: -1;*/
   }
   .xtra-space {
