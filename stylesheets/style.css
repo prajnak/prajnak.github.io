@@ -1,0 +1,373 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Cousine';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cousine'), url(http://fonts.gstatic.com/s/cousine/v10/kbq7FPeQCXis0Edyi-YOa1KPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Cousine';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cousine'), url(http://fonts.gstatic.com/s/cousine/v10/YHRUvkKfjyY1OOFvVZ97pVKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Cousine';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cousine'), url(http://fonts.gstatic.com/s/cousine/v10/SMyFnaT9pyH0nwH2jtNCVFKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Cousine';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cousine'), url(http://fonts.gstatic.com/s/cousine/v10/fxnGy8eAqq_GyLly_a7nxlKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Cousine';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cousine'), url(http://fonts.gstatic.com/s/cousine/v10/JdDY2pSZ0-z3fN7zaQFZ8FKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Cousine';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cousine'), url(http://fonts.gstatic.com/s/cousine/v10/mE8TUCo3Ct6cvn2PsTuRYVKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cousine';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cousine'), url(http://fonts.gstatic.com/s/cousine/v10/vqlxvKR8WJ80oGafUBSU3lKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cousine';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cousine'), url(http://fonts.gstatic.com/s/cousine/v10/2eS1tP1E7XMJQjkhdN3itQLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Cousine';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cousine Bold'), local('Cousine-Bold'), url(http://fonts.gstatic.com/s/cousine/v10/4OFqQVT4CccEiwAQMKv0egsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Cousine';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cousine Bold'), local('Cousine-Bold'), url(http://fonts.gstatic.com/s/cousine/v10/auteuWVL5GjOhekECAkC_QsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Cousine';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cousine Bold'), local('Cousine-Bold'), url(http://fonts.gstatic.com/s/cousine/v10/M4ypRnXoqtkNd9wEOy-kYwsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Cousine';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cousine Bold'), local('Cousine-Bold'), url(http://fonts.gstatic.com/s/cousine/v10/LTIpBDvtJwYbnunRv_7joAsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Cousine';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cousine Bold'), local('Cousine-Bold'), url(http://fonts.gstatic.com/s/cousine/v10/SBk2sQ2c9BLDOxF66pZljwsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Cousine';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cousine Bold'), local('Cousine-Bold'), url(http://fonts.gstatic.com/s/cousine/v10/UlWknS0Ks8i3LQ3Np_9zgQsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cousine';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cousine Bold'), local('Cousine-Bold'), url(http://fonts.gstatic.com/s/cousine/v10/JHq2r7PZMuzGPtEvdlprZAsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cousine';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cousine Bold'), local('Cousine-Bold'), url(http://fonts.gstatic.com/s/cousine/v10/XkYjaL8YjqL9qW8o0T14uQzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Cousine';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Cousine Italic'), local('Cousine-Italic'), url(http://fonts.gstatic.com/s/cousine/v10/svY-0AsqnhB5pNHScPRpHoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Cousine';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Cousine Italic'), local('Cousine-Italic'), url(http://fonts.gstatic.com/s/cousine/v10/bS4Fjp2fQa3pRrzTYB6CXoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Cousine';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Cousine Italic'), local('Cousine-Italic'), url(http://fonts.gstatic.com/s/cousine/v10/QDzx3BQqGiX1lOkEWvFN5YX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Cousine';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Cousine Italic'), local('Cousine-Italic'), url(http://fonts.gstatic.com/s/cousine/v10/A3uPTAlKBUrsNFa6sJx3A4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Cousine';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Cousine Italic'), local('Cousine-Italic'), url(http://fonts.gstatic.com/s/cousine/v10/VPofkpXXuyKBaDmhK0MZEIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Cousine';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Cousine Italic'), local('Cousine-Italic'), url(http://fonts.gstatic.com/s/cousine/v10/HsWN8Pjft7WkvHtoFRFgE4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cousine';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Cousine Italic'), local('Cousine-Italic'), url(http://fonts.gstatic.com/s/cousine/v10/aWxnkwXsEJCSg-HKkPTCkIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cousine';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Cousine Italic'), local('Cousine-Italic'), url(http://fonts.gstatic.com/s/cousine/v10/0VdvlOBfHobA4eW-NVYk-ZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Cousine';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Cousine Bold Italic'), local('Cousine-BoldItalic'), url(http://fonts.gstatic.com/s/cousine/v10/y_AZ5Sz-FwL1lux2xLSTZQ7aC6SjiAOpAWOKfJDfVRY.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Cousine';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Cousine Bold Italic'), local('Cousine-BoldItalic'), url(http://fonts.gstatic.com/s/cousine/v10/y_AZ5Sz-FwL1lux2xLSTZRdwxCXfZpKo5kWAx_74bHs.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Cousine';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Cousine Bold Italic'), local('Cousine-BoldItalic'), url(http://fonts.gstatic.com/s/cousine/v10/y_AZ5Sz-FwL1lux2xLSTZZ6vnaPZw6nYDxM4SVEMFKg.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Cousine';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Cousine Bold Italic'), local('Cousine-BoldItalic'), url(http://fonts.gstatic.com/s/cousine/v10/y_AZ5Sz-FwL1lux2xLSTZfy1_HTwRwgtl1cPga3Fy3Y.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Cousine';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Cousine Bold Italic'), local('Cousine-BoldItalic'), url(http://fonts.gstatic.com/s/cousine/v10/y_AZ5Sz-FwL1lux2xLSTZfZjSN9jRjHSPidsMdAc5jQ.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Cousine';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Cousine Bold Italic'), local('Cousine-BoldItalic'), url(http://fonts.gstatic.com/s/cousine/v10/y_AZ5Sz-FwL1lux2xLSTZfgrLsWo7Jk1KvZser0olKY.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cousine';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Cousine Bold Italic'), local('Cousine-BoldItalic'), url(http://fonts.gstatic.com/s/cousine/v10/y_AZ5Sz-FwL1lux2xLSTZYjoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cousine';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Cousine Bold Italic'), local('Cousine-BoldItalic'), url(http://fonts.gstatic.com/s/cousine/v10/y_AZ5Sz-FwL1lux2xLSTZRampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+body {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  font-family: 'Cousine', Courier, monospace;
+  background-color: #F2F1EF;
+}
+nav {
+}
+a, .navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-brand {
+  text-decoration: none;
+  color: #C0392B;
+}
+a:hover,
+a:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus.
+.navbar-default.navbar-brand:hover,
+.navbar-default.navbar-brand:focus {
+  color: #E74C3C;
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+  background: #E74C3C;
+  color: #FFF;
+}
+img.header-img {
+  padding: 0px 20px 20px 20px;
+  margin: 0px 20px 20px 20px;
+  width: 150px;
+}
+img.header-img:hover {
+  opacity: 0.5;
+}
+/*nav {
+padding: 5px;
+}
+*/
+.navbar {
+  border-bottom: #D2D7D3 solid 2px;
+}
+.nav > li > a {
+  background-color: #FFF;
+  /*border-bottom: #D2D7D3 solid 2px;*/
+}
+.nav > li > a:hover,
+.nav > li > a:focus,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+  text-decoration: none;
+  background-color: #C0392B;
+  color: #F2F1EF;
+}
+.nav > li > a:active {
+  text-decoration: none;
+  background-color: #E74C3C;
+  color: #F2F1EF;
+}
+.xtra-space {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.more-xtra-space {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.white-bg {
+  border-radius: 3px;
+  background-color: #FFF;
+  padding: 15px;
+  border: #D2D7D3 solid 1px;
+  border-bottom: #D2D7D3 solid 3px;
+  /*z-index: -1;*/
+}
+.projects {
+  padding: 40px;
+}
+.project-desc {
+  margin-top: 25px;
+}
+.h2 {
+  color: #96281B;
+  margin-top: 50px;
+}
+/* Customize container */
+@media (min-width: 968px) {
+  .container {
+    max-width: 860px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .white-bg {
+    border-radius: 3px;
+    background-color: #FFF;
+    padding: 40px;
+    border: #D2D7D3 solid 1px;
+    border-bottom: #D2D7D3 solid 3px;
+    /*z-index: -1;*/
+  }
+  .xtra-space {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .more-xtra-space {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  img.header-img {
+    padding: 0px 20px 20px 20px;
+    margin: 0px 20px 20px 20px;
+    width: 225px;
+  }
+}
