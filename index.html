@@ -1,101 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="BFftYC4tSsL9W7SLh3xTqIdu8XRtpC1-7ve-_1zLAug" />
-    <meta name="description" content="software engineering leader, built and managed teams of full stack and machine learning engineers">
-    <meta name="author" content="Prajna Kandarpa">
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
-    <link rel="canonical" href="https://prajis.me" />
-    <title>Prajna Kandarpa</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
-    <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
-    <script src="javascripts/jquery-2.1.4.min.js"></script>
-    <script src="javascripts/bootstrap.min.js"></script>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Prajna Kandarpa — software engineering leader and Chief Architect. Architecting Data & AI platforms across healthcare, telecom and energy.">
+<meta name="author" content="Prajna Kandarpa">
+<meta name="google-site-verification" content="BFftYC4tSsL9W7SLh3xTqIdu8XRtpC1-7ve-_1zLAug" />
+<link rel="canonical" href="https://prajis.me" />
+<meta property="og:title" content="Prajna Kandarpa — Chief Architect">
+<meta property="og:description" content="Invents new product lines and grows the engineering teams that scale them — across healthcare, telecom and energy.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://prajis.me">
+<title>Prajna Kandarpa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  *,*::before,*::after{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  a{text-decoration:none;color:inherit}
+
+  /* ============================================================
+     BOLD BRUTALIST / MONO
+     ============================================================ */
+  #br{--ink:#0a0a0a;--paper:#f2f0e9;--accent:#ff4d18;--accent2:#1a39ff;
+    background:var(--paper);color:var(--ink);font-family:'JetBrains Mono',ui-monospace,monospace}
+  #br .wrap{max-width:1200px;margin:0 auto;padding:0;border-left:3px solid var(--ink);border-right:3px solid var(--ink)}
+  #br .nav{display:flex;justify-content:space-between;align-items:center;padding:11px 18px;
+    border-bottom:3px solid var(--ink);text-transform:uppercase;font-size:12px;font-weight:700;letter-spacing:.06em}
+  #br .nav a{margin-left:16px}#br .nav a:hover{color:var(--accent)}
+  #br .hero{padding:34px 18px;border-bottom:3px solid var(--ink);position:relative}
+  #br .hero .kick{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;
+    display:inline-block;background:var(--accent);color:#fff;padding:5px 10px;margin-bottom:16px}
+  #br h1{font-family:'Space Grotesk',sans-serif;font-size:clamp(40px,8vw,96px);line-height:.84;
+    margin:0;font-weight:700;letter-spacing:-.03em;text-transform:uppercase}
+  #br .hero .sub{display:flex;justify-content:space-between;flex-wrap:wrap;gap:18px;margin-top:22px;
+    border-top:3px solid var(--ink);padding-top:16px}
+  #br .hero .sub p{font-family:'Inter',sans-serif;font-size:15.5px;line-height:1.5;max-width:600px;margin:0;font-weight:400}
+  #br .hero .sub .now{font-size:12px;text-transform:uppercase;font-weight:700;letter-spacing:.04em;text-align:right}
+  #br .hero .sub .now b{color:var(--accent2);display:block;font-size:14px;margin-top:5px}
+  #br .marquee{background:var(--ink);color:var(--paper);overflow:hidden;white-space:nowrap;
+    border-bottom:3px solid var(--ink);padding:8px 0;font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+  #br .marquee div{display:inline-block;animation:mq 26s linear infinite}
+  #br .marquee span{margin:0 24px}#br .marquee .star{color:var(--accent)}
+  @keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  #br .row{display:grid;grid-template-columns:230px 1fr;border-bottom:3px solid var(--ink)}
+  #br .row .rlabel{padding:22px 18px;border-right:3px solid var(--ink);text-transform:uppercase;
+    font-size:12px;font-weight:700;letter-spacing:.08em}
+  #br .row .rlabel .big{font-family:'Space Grotesk',sans-serif;font-size:30px;letter-spacing:-.02em;display:block;margin-top:6px}
+  #br .row .rbody{padding:22px 18px}
+  #br .row .rbody p{font-family:'Inter',sans-serif;font-size:15.5px;line-height:1.55;margin:0 0 10px;max-width:760px}
+  #br .row .rbody p:last-child{margin-bottom:0}
+
+  /* Sectors / breadth band */
+  #br .band{background:var(--accent2);color:#fff;border-bottom:3px solid var(--ink);padding:10px 18px;
+    font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+  #br .sectors{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:3px solid var(--ink)}
+  #br .sectors .sec{padding:20px 18px;border-right:3px solid var(--ink);transition:.15s}
+  #br .sectors .sec:last-child{border-right:0}
+  #br .sectors .sec:hover{background:var(--ink);color:var(--paper)}
+  #br .sectors .sec:hover .dom{color:var(--accent)}
+  #br .sectors .sec:hover .desc{color:#bbb}
+  #br .sectors .dom{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:17px;text-transform:uppercase;letter-spacing:-.01em;line-height:1.1}
+  #br .sectors .desc{font-family:'Inter',sans-serif;font-size:12.5px;margin-top:10px;line-height:1.45;color:#444}
+
+  #br .statrow{display:grid;grid-template-columns:repeat(3,1fr)}
+  #br .statrow .s{padding:20px 18px;border-right:3px solid var(--ink)}
+  #br .statrow .s:last-child{border-right:0}
+  #br .statrow .s .n{font-family:'Space Grotesk',sans-serif;font-size:clamp(34px,5vw,52px);font-weight:700;letter-spacing:-.03em;line-height:1}
+  #br .statrow .s .n em{font-style:normal;color:var(--accent)}
+  #br .statrow .s .c{font-family:'Inter',sans-serif;font-size:13px;margin-top:8px;color:#444;line-height:1.4}
+
+  #br .exwrap{border-bottom:3px solid var(--ink)}
+  #br .ex{display:grid;grid-template-columns:62px 1fr;border-top:3px solid var(--ink);transition:.15s}
+  #br .exwrap .ex:first-child{border-top:0}
+  #br .ex:hover{background:var(--ink);color:var(--paper)}
+  #br .ex:hover .num{color:var(--accent)}
+  #br .ex .num{font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:700;padding:16px 0 16px 18px;border-right:3px solid currentColor}
+  #br .ex .ebody{padding:15px 18px;display:grid;grid-template-columns:220px 1fr;gap:20px;align-items:baseline}
+  #br .ex h3{font-size:16px;text-transform:uppercase;font-weight:700;margin:0;letter-spacing:.02em}
+  #br .ex p{font-family:'Inter',sans-serif;font-size:14.5px;line-height:1.5;margin:0;opacity:.9}
+
+  #br .cta{padding:34px 18px;display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:24px}
+  #br .cta h2{font-family:'Space Grotesk',sans-serif;font-size:clamp(34px,6vw,68px);text-transform:uppercase;font-weight:700;letter-spacing:-.03em;line-height:.88;margin:0}
+  #br .cta h2 em{font-style:normal;color:var(--accent)}
+  #br .cta .links a{display:block;text-align:right;font-size:14px;font-weight:700;text-transform:uppercase;padding:5px 0;border-bottom:2px solid transparent}
+  #br .cta .links a:hover{border-color:var(--accent);color:var(--accent)}
+  #br footer{border-top:3px solid var(--ink);padding:12px 18px;font-size:12px;text-transform:uppercase;font-weight:700;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+
+  /* Experience timeline */
+  #br .tl{border-bottom:3px solid var(--ink)}
+  #br .tl .item{display:grid;grid-template-columns:150px 1fr;border-top:3px solid var(--ink);transition:.15s}
+  #br .tl .item:first-child{border-top:0}
+  #br .tl .item.feat{background:var(--accent)}
+  #br .tl .item.feat .yr,#br .tl .item.feat .co{color:#0a0a0a}
+  #br .tl .item:hover{background:var(--ink);color:var(--paper)}
+  #br .tl .item.feat:hover{background:var(--ink);color:var(--paper)}
+  #br .tl .item.feat:hover .yr,#br .tl .item.feat:hover .co{color:var(--accent)}
+  #br .tl .item:hover .co{color:var(--accent)}
+  #br .tl .yr{padding:18px;border-right:3px solid currentColor;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.02em}
+  #br .tl .yr .pres{color:var(--accent2);display:block;font-size:11px;margin-top:4px}
+  #br .tl .item.feat .yr .pres,#br .tl .item:hover .yr .pres{color:inherit}
+  #br .tl .ib{padding:16px 18px}
+  #br .tl .ihead{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px 16px;align-items:baseline}
+  #br .tl h3{font-family:'Space Grotesk',sans-serif;font-size:18px;text-transform:uppercase;font-weight:700;margin:0;letter-spacing:-.01em}
+  #br .tl .co{font-family:'Inter',sans-serif;font-size:13px;font-weight:700;color:var(--accent2);text-transform:uppercase;letter-spacing:.03em}
+  #br .tl p{font-family:'Inter',sans-serif;font-size:14.5px;line-height:1.5;margin:8px 0 0;max-width:780px}
+  #br .tl .tags{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px}
+  #br .tl .tg{font-family:'Inter',sans-serif;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;border:2px solid currentColor;padding:3px 7px}
+  #br .tl .tg.hot{background:#0a0a0a;color:#fff;border-color:#0a0a0a}
+  #br .tl .item:hover .tg.hot{background:var(--accent);border-color:var(--accent);color:#0a0a0a}
+  #br .tl .tg.dom{background:var(--accent2);color:#fff;border-color:var(--accent2)}
+  #br .tl .item:hover .tg.dom{background:#fff;color:var(--accent2);border-color:#fff}
+
+  @media(max-width:760px){
+    #br .row,#br .ex .ebody,#br .tl .item{grid-template-columns:1fr}
+    #br .row .rlabel{border-right:0;border-bottom:3px solid var(--ink)}
+    #br .statrow{grid-template-columns:1fr}#br .statrow .s{border-right:0;border-bottom:3px solid var(--ink)}
+    #br .sectors{grid-template-columns:1fr 1fr}#br .sectors .sec:nth-child(2){border-right:0}
+    #br .ex{grid-template-columns:1fr}#br .ex .num{border-right:0;border-bottom:3px solid currentColor;padding:14px 18px}
+    #br .tl .yr{border-right:0;border-bottom:3px solid currentColor}
+  }
+  @media(max-width:460px){#br .sectors{grid-template-columns:1fr}#br .sectors .sec{border-right:0}}
+</style>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <h1 class="text-center" style="width: fit;">prajna kandarpa</h1>
-        </div>
-        <div class="row">
-            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 sidebar">
-                <ul class="nav nav-stacked text-center">
-                    <li><a href="https://nbviewer.jupyter.org/github/prajnak/cv/blob/master/Resume_Prajna_Kandarpa.pdf" target="_blank">RESUME</a></li>
-                    <li><a href ="https://prajis.me/blog" target="_blank">BLOG</a></li>
-                    <li><a href ="https://github.com/prajnak" target="_blank">github</a></li>
-                    <li><a href ="https://www.linkedin.com/in/prajnak"target="_blank">linkedin</a></li>
-                    <li><a href ="https://www.goodreads.com/user/show/18794429-praj-kay" target="_blank">goodreads</a></li>
-                    <li><a href="#now_section">NOW</a></li>
-                </ul>
-            </div>
-            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-9 white-bg">
-                <div id="now_section">
-                    <h3>NOW</h3>
-                    <p>
-                       I have founded <a href="https://apariva.ai" target="_blank" rel="noopener noreferrer">Apariva Systems</a>, and am a consultant to build Data and AI products for emerging, and established businesses.
-                    </p>
-                    <hr>
-                </div>
-                <!-- <div>
-                    <a id="about-me" class="anchor" href="#about" aria-hidden="true"><span class="octicon octicon-link"></span></a>
-                    <p>Hi, I'm Prajna Kandarpa, usually go by Praj, and this is my landing page.
-                        I graduated with a major in Mechatronics Engineering at the <a href="http://mme.uwaterloo.ca" target="_blank">University of Waterloo</a> in May 2016. I also worked during and after my undergraduate degree at <a href="https://uwaterloo.ca/embedded-software-group/people-profiles/prajna-kandarpa" target = "_blank">UW's Embedded Software Group</a>. </p>
-              </div> -->
-              <div>
-                <h2>professional summary</h2>
-                <p>
-                    Software engineering leader with deep knowledge of modern software systems with fully automated build and release processes, full stack and machine learning engineer recruitment, mentoring and retainment strategies. 
-                </p>
-                <p>
-                    Hired, mentored, retained and led engineering teams (full-stack, machine learning and quality assurance) of sizes 4-22 people in consumer and enterprise software product companies with multiple thousand (lakhs) active users. 
-                </p>
-                <p>
-                    Cares deeply about the professional and personal growth of team members, with regular 1:1s, monthly meets 
-                    with interactive surveys, quizzes and fun events. From a software development perspective, I help create standardised processes for a product’s Software Development Lifecycle (SDLC) by working closely with stakeholders in engineering and product teams.
-                </p>
-                <h3>people management</h3>
-                <p>
-                    From an employee and people management purview, collected anonymised feedback on many aspects of each employee’s experience, gather group trends 
-                    in feedback, share them publicly and use the insights to drive process changes, identify bottlenecks and resolve technical/personal and other 
-                    challenges faced by engineering teams.
-                </p>
-                <h3>software development lifecycle</h3>
-                <p>
-                    Deep knowledge of SDLC infrastructure setup - CI/CD systems, Code health scanning, code and container security 
-                    scanning, unit test coverage checks, automated integration tests and more. Regularly reviews code being written by the team, helps setup and 
-                    determine architectural design specifications through collaborative reviews with tech leads and engineering managers. 
-                </p>
-                <h3>software security</h3>
-                <p>
-                    Made significant contributions to set up processes around application security, container security assessment of software products using third party security vendors, 
-                    CI/CD based security scans, and regular reviews + remediation strategies. </p>
-                <h3>organisational impact</h3>
-                <p>
-                    Aligns with organisational and business goals and drive engineering teams to deliver successful products and projects that involve 
-                    standard full stack components (web apps, mobile apps, distributed backend), all deployed in a cloud native manner with error traceability and 
-                    observability built in from day one. 
-                    
-                    <b>Products built by engineering teams I’ve led have earned their respective organisations revenue to the tune of $30m+ in the past 5 years.</b>
-                </p>
-              </div>
-            </div>
-        </div>
+
+<div id="br">
+  <div class="wrap">
+    <div class="nav">
+      <span class="brand" style="display:inline-flex;align-items:center;gap:11px"><img src="images/logos/logo-brutalist.png" alt="PK" style="height:40px;width:40px;object-fit:cover;display:block;border:3px solid var(--ink)">PRAJNA KANDARPA</span>
+      <div><a href="#br-domains">DOMAINS</a><a href="#br-work">EXPERIENCE</a><a href="#br-exp">EXPERTISE</a><a href="#br-contact">CONTACT</a></div>
     </div>
-    <footer>
-        <p class="text-center">© 2022 Prajna Kandarpa</p>
-    </footer>
-    <script type="text/javascript">
-        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-        try {
-            var pageTracker = _gat._getTracker("UA-59170449-1");
-            pageTracker._trackPageview();
-        } catch(err) {}
-    </script>
+
+    <div class="hero">
+      <span class="kick">Chief Architect · Inventor of Product Lines</span>
+      <h1>Invents<br>Product Lines.<br>Grows Teams.</h1>
+      <div class="sub">
+        <p>A hands-on architect who invents entire new product lines — and grooms and drives the large engineering teams that scale them — across <strong>healthcare, telecom and energy</strong>. Lately: pushing enterprise learning loops to build narrow, <strong>sovereign AI</strong>.</p>
+        <div class="now">Currently<b>Chief Architect<br>autonomize.ai</b></div>
+      </div>
+    </div>
+
+    <div class="marquee"><div>
+      <span class="star">★</span><span>CHIEF ARCHITECT @ AUTONOMIZE.AI</span><span class="star">★</span><span>FHIR · 9M-CONCEPT CONTEXT GRAPH · MULTI-AGENT</span><span class="star">★</span><span>ARCHITECT OF GEMOS @ GREENKO</span><span class="star">★</span><span>HEALTHCARE · TELECOM · ENERGY</span><span class="star">★</span><span>CHIEF ARCHITECT @ AUTONOMIZE.AI</span><span class="star">★</span><span>FHIR · 9M-CONCEPT CONTEXT GRAPH · MULTI-AGENT</span><span class="star">★</span><span>ARCHITECT OF GEMOS @ GREENKO</span><span class="star">★</span><span>HEALTHCARE · TELECOM · ENERGY</span><span class="star">★</span>
+    </div></div>
+
+    <div class="band" id="br-domains">Domains — One playbook, proven across regulated, high-stakes industries</div>
+    <div class="sectors">
+      <div class="sec"><div class="dom">Healthcare AI</div><div class="desc">autonomize.ai — FHIR interoperability, a 9M-concept Context Graph &amp; enterprise multi-agent workflows</div></div>
+      <div class="sec"><div class="dom">Telecom</div><div class="desc">Tecnotree — Data &amp; AI platform for global telco operators</div></div>
+      <div class="sec"><div class="dom">Energy</div><div class="desc">Greenko — gigawatt-scale renewables &amp; storage optimization</div></div>
+      <div class="sec"><div class="dom">Enterprise · Trusted AI</div><div class="desc">CognitiveScale — pioneered explainable, fair, compliant AI</div></div>
+    </div>
+
+    <div class="row">
+      <div class="rlabel">Now<span class="big">01</span></div>
+      <div class="rbody">
+        <p>Currently <strong>Chief Architect and on the executive leadership team at autonomize.ai</strong> — owning the architecture and engineering practice behind its healthcare Data &amp; AI platform.</p>
+        <p>Founder of <strong>Apariva Systems</strong> — most recently architecting <strong>GEMOS</strong>, a gigawatt-scale energy optimization platform, while consulting full-time for Greenko's CEO office. Across a decade I've built the same thing in healthcare, telecom and energy: teams and platforms that turn data and ML into products that scale.</p>
+      </div>
+    </div>
+
+    <div class="statrow">
+      <div class="s"><div class="n">$175M<em>+</em></div><div class="c">Annual revenue run-rate enabled by platforms I've architected</div></div>
+      <div class="s"><div class="n">3<em>+</em></div><div class="c">Industries — healthcare, telecom &amp; energy — plus trusted enterprise AI</div></div>
+      <div class="s"><div class="n">GW<em>-scale</em></div><div class="c">Renewables + pumped-hydro portfolio optimized by GEMOS at Greenko</div></div>
+    </div>
+
+    <div class="tl" id="br-work">
+      <div class="item feat">
+        <div class="yr">2026<span class="pres">Feb–Now</span></div>
+        <div class="ib">
+          <div class="ihead"><h3>Chief Architect · Exec Leadership</h3><span class="co">autonomize.ai</span></div>
+          <p>Chief Architect and a member of the executive leadership team. Architected the company's enterprise-grade multi-agent workflow platform for healthcare, pioneered its FHIR interoperability layers, and built the Context Graph — a knowledge graph of 9M+ healthcare &amp; biomedical concepts plus payer guidelines — that grounds the agents in clinical and coverage truth.</p>
+          <div class="tags"><span class="tg dom">Healthcare AI</span><span class="tg">Multi-agent platform</span><span class="tg">FHIR interoperability</span><span class="tg">Context Graph · 9M+</span><span class="tg">Exec leadership</span></div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="yr">2025<span class="pres">Jan–Dec</span></div>
+        <div class="ib">
+          <div class="ihead"><h3>Architect — GEMOS</h3><span class="co">Greenko Group</span></div>
+          <p>Architected the Greenko Energy Management &amp; Optimization System — the central platform that schedules and dispatches a gigawatt-scale renewables-plus-storage portfolio (wind, solar, pumped hydro, BESS, hydro, thermal, green ammonia) against supply contracts and spot markets, while enforcing IEGC&nbsp;2023 grid-code compliance. Built as founder of Apariva Systems, consulting full-time for Greenko's CEO office.</p>
+          <div class="tags"><span class="tg dom">Energy</span><span class="tg hot">Now live in production</span><span class="tg">Energy optimization</span><span class="tg">Pumped hydro storage</span><span class="tg">IEGC 2023</span></div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="yr">2025<span class="pres">Apr–Now</span></div>
+        <div class="ib">
+          <div class="ihead"><h3>Founder &amp; Managing Partner</h3><span class="co">Apariva Systems</span></div>
+          <p>Founded April 2025. First engagement: consulting full-time for Greenko's CEO office to build GEMOS. Advises businesses building Data and AI products from zero to scale.</p>
+          <div class="tags"><span class="tg">Data &amp; AI</span><span class="tg">Consulting</span><span class="tg">Founder</span></div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="yr">2022 — 25<span class="pres">to Mar</span></div>
+        <div class="ib">
+          <div class="ihead"><h3>AVP — Data &amp; AI Platform</h3><span class="co">Tecnotree</span></div>
+          <p>Continued from CognitiveScale after Tecnotree acquired it — same Data &amp; AI platform charter, expanded to lead engineering, product and customer delivery end to end for a global telecom software vendor, owning both what got built and how it landed with customers.</p>
+          <div class="tags"><span class="tg dom">Telecom</span><span class="tg">Data &amp; AI platform</span><span class="tg">Engineering + product</span><span class="tg">Customer delivery</span></div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="yr">2017 — 22</div>
+        <div class="ib">
+          <div class="ihead"><h3>Director of Engineering</h3><span class="co">CognitiveScale</span></div>
+          <p>Led Engineering, QA and (briefly) SRE for the India division of an enterprise AI platform company. My team pioneered <strong>Trusted AI for enterprises</strong> — explainability, fairness, robustness and regulatory compliance via Cortex Certifai &amp; Fabric, deployed across AWS / Azure / GCP / OpenShift. Grew from Sr. Software Engineer → Sr. Technical Lead → Director.</p>
+          <div class="tags"><span class="tg dom">Enterprise · Trusted AI</span><span class="tg">Eng leadership</span><span class="tg">Kubernetes / CI-CD</span><span class="tg">→ acquired by Tecnotree</span></div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="yr">2018</div>
+        <div class="ib">
+          <div class="ihead"><h3>VP — Software</h3><span class="co">Muse Wearables</span></div>
+          <p>Built the entire software team (frontend, backend, mobile) and helped secure $140K+ in pre-orders for a hybrid smartwatch.</p>
+          <div class="tags"><span class="tg dom">Consumer / Wearables</span><span class="tg">0→1 team</span><span class="tg">Mobile</span></div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="yr">2015 — 16</div>
+        <div class="ib">
+          <div class="ihead"><h3>Founding Engineer · Employee #1</h3><span class="co">Acerta Systems Analytics</span></div>
+          <p>Built web apps, backend services, ML models and data pipelines for manufacturing/automotive IoT analytics during a 14-month founding stint.</p>
+          <div class="tags"><span class="tg dom">Manufacturing IoT</span><span class="tg">Full-stack</span><span class="tg">Machine learning</span></div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="yr">2010 — 16<span class="pres">B.A.Sc</span></div>
+        <div class="ib">
+          <div class="ihead"><h3>Mechatronics Engineering (Hons)</h3><span class="co">University of Waterloo</span></div>
+          <p>Bachelor of Applied Science. International Undergraduate Scholarship, Faculty of Engineering. Earlier: diagnostics engineering intern at Arista Networks.</p>
+          <div class="tags"><span class="tg">Mechatronics</span><span class="tg">Waterloo</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exwrap" id="br-exp">
+      <div class="ex"><div class="num">01</div><div class="ebody"><h3>Product Invention</h3><p>As a hands-on individual contributor, I invent and architect entire new product lines — from a blank page to shipped product — owning the hardest technical bets myself.</p></div></div>
+      <div class="ex"><div class="num">02</div><div class="ebody"><h3>Narrow Sovereign AI</h3><p>I push the envelope of enterprise learning loops to build narrow, sovereign AI — domain-owned models and feedback systems that sharpen every cycle, kept in-house and under the organisation's control.</p></div></div>
+      <div class="ex"><div class="num">03</div><div class="ebody"><h3>Player-Coach Leadership</h3><p>I groom, mentor and drive large engineering teams in parallel — growing engineers and ICs while staying deep in the architecture and the code.</p></div></div>
+      <div class="ex"><div class="num">04</div><div class="ebody"><h3>Platform &amp; Engineering Rigor</h3><p>CI/CD, security, observability and cloud-native architecture — the disciplined foundation that makes invention durable, scalable and safe.</p></div></div>
+      <div class="ex"><div class="num">05</div><div class="ebody"><h3>Trusted &amp; Responsible AI</h3><p>Explainability, fairness, robustness and regulatory compliance built into models from the start — the discipline my team pioneered for enterprises at CognitiveScale.</p></div></div>
+      <div class="ex"><div class="num">06</div><div class="ebody"><h3>Agentic Systems &amp; Knowledge Graphs</h3><p>Multi-agent platforms grounded in domain knowledge graphs — FHIR interoperability and a 9M-concept Context Graph that keep agents anchored to real-world truth.</p></div></div>
+      <div class="ex"><div class="num">07</div><div class="ebody"><h3>Optimization at Scale</h3><p>Large-scale dispatch, scheduling and constraint optimization under hard regulatory limits — the engine behind gigawatt-scale energy systems like GEMOS.</p></div></div>
+      <div class="ex"><div class="num">08</div><div class="ebody"><h3>Zero-to-One &amp; Advisory</h3><p>Founding and consulting — taking products from idea to revenue and advising CXO offices on where to place their Data and AI bets.</p></div></div>
+    </div>
+
+    <div class="cta" id="br-contact">
+      <h2>Let's<br>Work<em>.</em></h2>
+      <div class="links">
+        <a href="https://nbviewer.jupyter.org/github/prajnak/cv/blob/master/Resume_Prajna_Kandarpa.pdf" target="_blank">Résumé ↗</a>
+        <a href="https://prajis.me/blog" target="_blank">Blog ↗</a>
+        <a href="https://github.com/prajnak" target="_blank">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/prajnak" target="_blank">LinkedIn ↗</a>
+        <a href="https://www.goodreads.com/user/show/18794429-praj-kay" target="_blank">Goodreads ↗</a>
+      </div>
+    </div>
+
+    <footer><span>© 2026 PRAJNA KANDARPA</span><span>PRAJIS.ME</span></footer>
+  </div>
+</div>
+
 </body>
+</html>
